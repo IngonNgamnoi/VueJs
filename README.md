@@ -39,6 +39,20 @@ npm test
 <p v-for="(x,index) in list"> {{ x.message }} -  {{index }}</p> -->
 #v-on
  ย่อได้ @
+ #router-link
+ no refresh page
+ #code demo tes
+ <mge/>
+    <div class="user">
+   Name: <input v-model="name">
+   <hello v-bind:name="name"> </hello>
+   </div>
+    <a @click="confirmsubmit" class="submit button is-primary is-outlined"> submit</a>
+    <br>
+     <router-link to="/">Home</router-link>
+    <router-link to="/about">About</router-link>
+    <br>
+    <router-view></router-view>
 ```
 
 
